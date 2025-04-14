@@ -53,3 +53,35 @@ xyz(6,1) // Function call with arguments passed.
 
 xyz(8,1) */
 
+//Object creation
+
+//1 method create a variable name car and directly assign properties aka key value within {}
+
+const car = {
+  name:"suzuki", 
+  type:"baleno", 
+  engine:1200
+}
+
+// 2-Method create an empty variable and push the properties to objects
+
+const person = {};
+
+person.firstName = "Nanda";
+person.lastName = "Kishore";
+person.age = 27;
+
+// 3-Method using new keyword.
+
+const animal = new Object();
+
+animal.name = "tiger";
+animal.color = "Yellow";
+
+// Accessing Object Properties
+
+console.log(animal.name);
+console.log(person["firstName"]);
+
+//
+
