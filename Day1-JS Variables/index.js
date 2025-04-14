@@ -34,6 +34,22 @@ function xyz(){
 
 }
 
+//2. Functions
 
+//A JavaScript function is a block of code designed to perform a particular task.
 
+function xyz(a,b)//function declared with parameter
+{
+  console.log(a,b);
+}
+
+xyz(6,1) // Function call with arguments passed.
+
+//Arrow Function
+
+/*const xyz = () =>{
+  console.log(a,b);
+}
+
+xyz(8,1) */
 
